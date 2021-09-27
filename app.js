@@ -2,7 +2,7 @@ let express = require('express'); //requiriendo el modulo express
 let path = require('path') //requiriendo mudulo path
 let app = express(); 
 
-const PORT = 3033;
+const PORT = 3070; //elegi otro puerto para que no no tengas que cambiarlo :)
 
 app.listen(PORT, () => console.log( 
     `Servidor levantado en el puerto${PORT}
