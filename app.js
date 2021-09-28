@@ -1,6 +1,6 @@
 let express = require('express'); //requiriendo el modulo express
 let path = require('path') //requiriendo mudulo path
-let app = express(); 
+let app = express(); //guardanddo las funciones de express en app
 
 const PORT = 3070; //elegi otro puerto para que no no tengas que cambiarlo :)
 
